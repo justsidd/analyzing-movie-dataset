@@ -34,6 +34,7 @@ def rate_bucket(dataset, rate_low):
 
 
 # Read the data file and store it as a list 'movies'
+#Here change the path according to your use
 opened_file = open(path, encoding="utf8")
 read_file = reader(opened_file)
 movies = list(read_file)
